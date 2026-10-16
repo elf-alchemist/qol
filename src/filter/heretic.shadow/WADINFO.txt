@@ -1,0 +1,10 @@
+-----------------
+Ultra-Widerpix854
+-----------------
+
+Heretic assets extended by Meerschweinmann,
+
+based on Raven Software assets and Nash Muhandes's Widepix.
+
+Where to get latest version:
+https://www.doomworld.com/forum/topic/148537

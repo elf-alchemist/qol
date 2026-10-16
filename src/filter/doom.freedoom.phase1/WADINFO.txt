@@ -1,0 +1,12 @@
+-----------------
+Ultra-Widerpix854
+-----------------
+
+Freedoom1 assets extended by PhobosVB,
+
+Freedoom1 PFUB1/PFUB2 and ENDPIC extended by Meerschweinmann
+
+The STBAR is based on Nighfright's Freedoom STBAR
+
+Where to get latest version:
+https://www.doomworld.com/forum/topic/148537

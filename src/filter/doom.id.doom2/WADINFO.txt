@@ -1,0 +1,9 @@
+-----------------
+Ultra-Widerpix854
+-----------------
+
+DOOM SSG sprite extended by Julia Nechaevskaya (Author from International DOOM),
+based on id Software assets.
+
+Where to get latest version:
+https://www.doomworld.com/forum/topic/148537

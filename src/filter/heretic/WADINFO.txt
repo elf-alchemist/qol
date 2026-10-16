@@ -1,0 +1,9 @@
+-----------------
+Ultra-Widerpix854
+-----------------
+
+Heretic sprites extended by Nash Muhandes from his Widepix package,
+based on Raven Software assets.
+
+Where to get latest version:
+https://www.doomworld.com/forum/topic/148537

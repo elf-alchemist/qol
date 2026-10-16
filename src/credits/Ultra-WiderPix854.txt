@@ -1,0 +1,99 @@
+-----------------
+Ultra-WiderPix854
+-----------------
+
+
+
+---------------------------------------------------------
+
+
+This is a collection of 854 pixel wide widescreen assets by Meerschweinmann from Doomworld forum.
+
+
+These assets are meant to use with monitors up to an aspect ratio of 32:9.
+They are fine to use with 16:10, 16:9 and 21:9 monitors too.
+
+
+The idea of this Project is to get rid of those black bars left and right on wider monitors.
+
+
+Where to get latest version:
+https://www.doomworld.com/forum/topic/148537
+
+
+The assets are in PK3 format for GZDoom or in WAD format in an autoload file structure.
+
+Weapons and widescreen pictures are in separate WADs.
+
+
+The "Alternate_versions" folder contains different versions of the assets.
+Examples:
+
+- DOOM/Heretic registered with different titlescreens
+- TNT with a slightly modified BOSSBACK screen that corrected some things or a separate CREDIT screen.
+- Plutonia with a separate CREDIT screen.
+ 
+
+The "Bunny_extended" folder is for developers only.
+
+This WAD contains in the middle extended bunny-screens,
+that are hopefully supported by some source port someday.
+The idea is to fix the behavior that spiked Daisy scrolls to early
+on screen (21:9) or is on screen before the picture scrolls (32:9).
+
+
+The assets were tested with Crispy/International-DOOM, Woof, Eternity Engine, Odamex, Helion and GZDoom.
+
+
+Have fun.
+
+Meerschweinmann
+
+
+
+Thanks goes to:
+
+
+PhobosVB for all your high quality assets you delivered to Ultra-WiderPix854,
+
+
+Nash Muhandes for making Widepix,
+
+Scuba Steve for making his widescreen assets,
+
+without Nash Muhandes and Scuba Steves work as base Ultra-WiderPix854 might not be here today,
+
+
+Julia Nechaevskaya for all your support, International-DOOM,
+explanations how to use the graphics tools, your sprite and sky assets,
+
+
+Owlet7 for all your support, Wadfusion and the Zscript lumps,
+
+
+00_Zombie_00 for this lovely wonderful Cyberdemon fatality sprite used in the Ultimate DOOM Titlepic,
+
+
+NightFright for the fixed DOOM HELP1 lump (Bye Ouicksave) and the Freedoom STBAR as base,
+
+
+the complete Woof Team for doing 32:9 too and fixing the problems the Ultra-Widerpix854 assets had with Woof,
+
+
+Roman Fomin for giving me tipps how to arrange the bunny screen,
+
+
+Ioan Chera and Max Waine for your support that Eternity Engine is now playable
+with correct FOV in 32:9 and very high resolutions.
+And not to forget, with your help EE can do now the Ultra-Widerpix854 assets flawless,
+
+
+Gifty for the alternate Plutonia CREDIT and HELP screens as base,
+
+Somerandommarineguy and Elf-Alchemist for the alternate TNT CREDIT screen,
+
+
+Raven games for making Heretic, Hexen and its Deathkings Expansion and the good times we had with them,
+
+
+id Software for making the best shooter ever, we've been playing and loving since its shareware release.

@@ -1,0 +1,10 @@
+-----------------
+Ultra-Widerpix854
+-----------------
+
+DOOM2 assets extended by Meerschweinmann,
+
+based on id Software assets, Nash Muhandes's Widepix, and Sucuba Steve's widescreen assets.
+
+Where to get latest version:
+https://www.doomworld.com/forum/topic/148537

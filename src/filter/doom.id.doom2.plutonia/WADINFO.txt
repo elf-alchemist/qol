@@ -1,0 +1,13 @@
+-----------------
+Ultra-Widerpix854
+-----------------
+
+Plutonia assets extended by Meerschweinmann,
+
+based on id Software assets, Nash Muhandes's Widepix, and Sucuba Steve's widescreen assets.
+
+Alternate Plutonia CREDIT and HELP screen foreground made by Gifty,
+extended 32:9 background made by Meerschweinmann.
+
+Where to get latest version:
+https://www.doomworld.com/forum/topic/148537
