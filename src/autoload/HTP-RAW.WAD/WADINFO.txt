@@ -1,0 +1,14 @@
+-----------------
+Ultra-Widerpix854
+-----------------
+
+Hell to Pay assets extended by PhobosVB,
+lower sky extensions for ZDoom based ports by Meerschweinmann.
+
+Assets based on skies from Hell to Pay,
+
+TEXTURES and ZMAPINFO lump and PK3 made by Meerschweinmann.
+
+Where to get latest version:
+https://www.doomworld.com/forum/topic/148537-ultra-widerpix854-329-super-ultrawide-assets-and-skies-for-the-doom-and-raven-games/
+

@@ -1,0 +1,18 @@
+-----------------
+Ultra-Widerpix854
+-----------------
+
+Sigil II widescreen graphics extended by PhobosVB,
+based on Romero Games assets and graphics from Scuba Steve.
+
+Sigil II sky extended by Meerschweinmann,
+based on SKY6 from John Romero's great Sigil II,
+
+
+TEXTURES lump and PK3 made by Meerschweinmann.
+
+ZMAPINFO lump from Sigil II. 
+
+
+Where to get latest version:
+https://www.doomworld.com/forum/topic/148537

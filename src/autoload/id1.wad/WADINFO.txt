@@ -1,0 +1,10 @@
+-----------------
+Ultra-Widerpix854
+-----------------
+
+Legacy of Rust assets extended by PhobosVB,
+
+based on the Legacy of Rust assets from the DOOM+DOOMII Kex release.
+
+Where to get latest version:
+https://www.doomworld.com/forum/topic/148537
