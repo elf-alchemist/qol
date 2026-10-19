@@ -36,21 +36,21 @@ cob           -> CoB_EP1.wad
 concerned     -> concern.wad
 cpd           -> cpd.wad
 cramunhao     -> Cramunhao.wad
-crematomania  -> Crematomania - RC2-02.wad
+crematomania  -> Crematomania - RC2-02.wad -- NOTE: not /idgames, but *belch* ModDB
 cydonia       -> Cydonia.wad
 
-d2minusd      ->
-d64d2         ->
-dark7         ->
-darkening2    ->
-darkening     ->
-dcr           ->
-descension    ->
-dntfeardmons  ->
-dotb          ->
-dot           ->
-dwango5       ->
-dystopia3     ->
+d2minusd      -> d2minusd.wad
+d64d2         -> D64D2_v1.4.wad
+dark7         -> Dark7.wad
+darkening2    -> Darken2.wad
+darkening     -> DARKEN.WAD -- NOTE: the WAD that actually contains the STBAR is RESOURCE.WAD, so it must be loaded before DARKEN.WAD
+dcr           -> Classic_Redux.wad
+descension    -> Descension.wad
+dntfeardmons  -> dntfeardmons.wad
+dotb          -> DOTB_RC3.wad
+dot           -> dot.WAD
+dwango5       -> dwango5.wad
+dystopia3     -> DYST3TEX.WAD -- NOTE: split WAD, DYST3LEV.wad has the maps, harmless
 
 dbp09         ->
 dbp13         ->
