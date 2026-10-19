@@ -52,33 +52,36 @@ dot           -> dot.WAD
 dwango5       -> dwango5.wad
 dystopia3     -> DYST3TEX.WAD -- NOTE: split WAD, DYST3LEV.wad has the maps, harmless
 
-dbp09         ->
-dbp13         ->
-dbp27         ->
-dbp36         ->
-dbp38         ->
-dbp42         ->
-dbp47         ->
-dbp54         ->
-dbp57         ->
-dbp60         ->
-dbp61         ->
-dbp65         ->
-dbp66         ->
-dbp67         ->
-dbp68         ->
-dbp69         ->
-dbp70         ->
-dbp71         ->
-dbp73         ->
+NOTE: vomit-inducing naming consistency
 
-earthless     ->
-epic2         ->
-etrn          ->
-et            ->
-eviternity    ->
-exmas         ->
-exomoon       ->
+dbp09         -> DBP_09.wad
+dbp13         -> dbp13.wad
+dbp27         -> DBP27.wad
+dbp36         -> dbp36.wad
+dbp38         -> dbp_38.wad
+dbp42         -> dbp42.wad
+dbp47         -> DBP47.wad
+dbp54         -> dbp_54_rc1.3.wad
+dbp57         -> DBP_57.wad
+dbp60         -> DBP_60.wad
+dbp61         -> DBP_61.wad
+dbp65         -> DBP65.wad
+dbp66         -> dbp_66_rc3.wad
+dbp67         -> DBP67.wad
+dbp68         -> dbp68_rc1_3.wad
+dbp69         -> DBP69_cstind.wad
+dbp70         -> dbp70rc2.2.wad
+dbp71         -> DBP_71.wad
+dbp73         -> DBP_73.wad
+
+earthless     -> earthless.wad
+epic2         -> epic2.wad
+etrn          -> ETERNALL.WAD
+              -> MAYhem2048.wad
+et            -> ET.wad
+eviternity    -> Eviternity.wad
+exmas         -> EXMAS.wad
+exomoon       -> exomoon.wad
 
 fava          ->
 fistful       ->
