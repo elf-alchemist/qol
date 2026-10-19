@@ -83,13 +83,14 @@ eviternity    -> Eviternity.wad
 exmas         -> EXMAS.wad
 exomoon       -> exomoon.wad
 
-fava          ->
-fistful       ->
-fragport      ->
-frh           ->
-fth666        ->
+fava          -> FAVA.WAD
+fistful       -> FISTFUL.WAD
+fragport      -> Fragport.wad
+frh           -> FrH.wad
+fth666        -> fth666.wad
 
-gdm           ->
+gdm           -> GOTHICDM.WAD
+              -> GOTHIC2.WAD
 
 h2h           ->
 hb            ->
