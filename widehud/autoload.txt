@@ -5,21 +5,21 @@
 aaliens       -> aaliens_v1_2.wad
 abandon       -> Abandon.wad
 ab            -> AB.wad
-action        -> *
+action        -> action.wad
 admortem      -> AdMortem_v1.5.6.wad
-afternoon     -> *
-akeldama      -> *
+afternoon     -> afternoon.wad
+akeldama      -> akeldama.wad
 aliens        -> [IGNORED] Multiple possibly-canonical-or-non-canonical releases, requires building
 allhell       -> Allhell.wad -- NOTE: Multiple files, can be run together just fine
 antareq       -> ANTA_REQ.wad
 aod           -> aoddoom1.wad
 arrokoth      -> ARROKOTH.wad
 ar            -> AR.wad
-atone         -> *
+atone         -> atone.wad
 avactor       -> Avactor.wad
 av            -> AV.WAD
 
-batman        -> *
+batman        -> batman.wad
 beyondreality -> [DELETED] GZDoom PK3 only
 bloodysteel   -> BLDSTLP.wad
 bstain        -> BStain.wad
@@ -27,20 +27,30 @@ btsx1         -> btsx1_e1a.wad
 btsx2         -> btsx2_e2a.wad
 btsx3         -> BTSXE3PR.WAD
 
-cchest        ->
-chosen        ->
-cob           ->
-concerned     ->
-cpd           ->
-cramunhao     ->
-crematomania  ->
-cydonia       ->
+cchest        -> CChest.wad
+              -> Cchest2.wad
+              -> cchest3.wad
+              -> cchest4.wad
+chosen        -> ch133.wad
+cob           -> CoB_EP1.wad
+concerned     -> concern.wad
+cpd           -> cpd.wad
+cramunhao     -> Cramunhao.wad
+crematomania  -> Crematomania - RC2-02.wad
+cydonia       -> Cydonia.wad
 
 d2minusd      ->
 d64d2         ->
 dark7         ->
 darkening2    ->
 darkening     ->
+dcr           ->
+descension    ->
+dntfeardmons  ->
+dotb          ->
+dot           ->
+dwango5       ->
+dystopia3     ->
 
 dbp09         ->
 dbp13         ->
@@ -61,14 +71,6 @@ dbp69         ->
 dbp70         ->
 dbp71         ->
 dbp73         ->
-
-dcr           ->
-descension    ->
-dntfeardmons  ->
-dotb          ->
-dot           ->
-dwango5       ->
-dystopia3     ->
 
 earthless     ->
 epic2         ->
