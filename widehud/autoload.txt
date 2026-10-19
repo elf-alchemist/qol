@@ -20,7 +20,7 @@ avactor       -> Avactor.wad
 av            -> AV.WAD
 
 batman        -> batman.wad
-beyondreality -> [DELETED] GZDoom PK3 only
+beyondreality -> [DELETED] PK3 only
 bloodysteel   -> BLDSTLP.wad
 bstain        -> BStain.wad
 btsx1         -> btsx1_e1a.wad
@@ -92,58 +92,60 @@ fth666        -> fth666.wad
 gdm           -> GOTHICDM.WAD
               -> GOTHIC2.WAD
 
-h2h           ->
-hb            ->
-hdlschkn      ->
-hellbnd       ->
-herexen       ->
-herian        ->
-hntc          ->
-hoeshrwr      ->
-h_phobia      ->
-hr2final      ->
-hr            ->
+h2h           -> H2H-XMAS.WAD
+hb            -> hellbane.wad
+hdlschkn      -> HDLSCHKN.wad
+hellbnd       -> Hellbnd.wad -- NOTE: DSDA hosted version, not actual /idgames release
+herexen       -> Herexen.wad
+herian        -> Herian.wad
+hntc          -> hntc.wad
+hoeshrwr      -> [UNCONFIRMED] Likely still same
+h_phobia      -> h_phobia.wad
+hr2final      -> hr2final.wad
+hr            -> HR.WAD
 
-icar          ->
-intercep2     ->
-intercep3     ->
-intercep      ->
-irkalla       ->
+icar          -> ICARUS.WAD
+intercep2     -> intercep2.wad
+intercep3     -> intercep3.wad
+intercep      -> intercep.wad
+irkalla       -> irkalla.wad
 
-jarjar        ->
-jjep1         ->
-jns           ->
-jpcp_kana     ->
-jpcp          ->
-judgmentrt    ->
-judgment      ->
+jarjar        -> Fritter.wad
+jjep1         -> JJE1_JUDGE.WAD
+              -> JJE2_JURY.WAD
+              -> JJE3_EXEC.WAD
+jns           -> jenesis.wad
+jpcp_kana     -> JCPC_HUD.wad
+jpcp          -> JCPC.wad
+judgmentrt    -> JudgmentRT.wad
+judgment      -> Judgment.wad
 
-kdikdizd      ->
+kdikdizd      -> KDiKDi_B.wad
 
-lastep1       ->
-longtrek      ->
-lostciv       ->
-lullaby       ->
-lunacy        ->
+lastep1       -> LASTEP1.WAD
+longtrek      -> longtrek.wad
+lostciv       -> joi_lstcv15.wad
+lullaby       -> [DELETED] PK3 only
+lunacy        -> [DELETED] Already wide
 
-machete       ->
-marrowrt      ->
-mayhem19      ->
-mm2           ->
-monument      ->
-moonbld       ->
-mutiny        ->
+machete       -> macheteFinal.wad
+marrowrt      -> marrowrt.wad
+mayhem19      -> MAYhem19.wad
+mm2           -> MM2.WAD
+monument      -> monument.wad
+moonbld       -> moonbld.wad
+mutiny        -> MUTINY.wad
 
-neis          ->
-nihility      ->
-nost2         ->
-nostzero      ->
-nova2         ->
-nt            ->
+neis          -> NEIS.wad
+nihility      -> Nihility.wad
+nost2         -> Nost2.wad
+nostzero      -> nostzero.wad
+nova2         -> NOVA2.wad
+nt            -> nt.wad
 
-obit          ->
-odss          ->
-ozonia        ->
+obit          -> obtic.wad -- NOTE: DSDA hosted version, not actual /idgames release
+odss          -> ODESSA14.WAD
+ozonia        -> ozonia.wad
 
 pagodia       ->
 pd2           ->
