@@ -1,0 +1,203 @@
+2048vr        -> 2048vr_v1.6G.wad
+25yoe         -> ph_25yoe.wad
+333am         -> 333AM.wad
+
+aaliens       -> aaliens_v1_2.wad
+abandon       -> Abandon.wad
+ab            -> AB.wad
+action        -> *
+admortem      -> AdMortem_v1.5.6.wad
+afternoon     -> *
+akeldama      -> *
+aliens        -> [IGNORED] Multiple possibly-canonical-or-non-canonical releases, requires building
+allhell       -> Allhell.wad -- NOTE: Multiple files, can be run together just fine
+antareq       -> ANTA_REQ.wad
+aod           -> aoddoom1.wad
+arrokoth      -> ARROKOTH.wad
+ar            -> AR.wad
+atone         -> *
+avactor       -> Avactor.wad
+av            -> AV.WAD
+
+batman        -> *
+beyondreality -> [DELETED] GZDoom PK3 only
+bloodysteel   -> BLDSTLP.wad
+bstain        -> BStain.wad
+btsx1         -> btsx1_e1a.wad
+btsx2         -> btsx2_e2a.wad
+btsx3         -> BTSXE3PR.WAD
+
+cchest        ->
+chosen        ->
+cob           ->
+concerned     ->
+cpd           ->
+cramunhao     ->
+crematomania  ->
+cydonia       ->
+
+d2minusd      ->
+d64d2         ->
+dark7         ->
+darkening2    ->
+darkening     ->
+
+dbp09         ->
+dbp13         ->
+dbp27         ->
+dbp36         ->
+dbp38         ->
+dbp42         ->
+dbp47         ->
+dbp54         ->
+dbp57         ->
+dbp60         ->
+dbp61         ->
+dbp65         ->
+dbp66         ->
+dbp67         ->
+dbp68         ->
+dbp69         ->
+dbp70         ->
+dbp71         ->
+dbp73         ->
+
+dcr           ->
+descension    ->
+dntfeardmons  ->
+dotb          ->
+dot           ->
+dwango5       ->
+dystopia3     ->
+
+earthless     ->
+epic2         ->
+etrn          ->
+et            ->
+eviternity    ->
+exmas         ->
+exomoon       ->
+
+fava          ->
+fistful       ->
+fragport      ->
+frh           ->
+fth666        ->
+
+gdm           ->
+
+h2h           ->
+hb            ->
+hdlschkn      ->
+hellbnd       ->
+herexen       ->
+herian        ->
+hntc          ->
+hoeshrwr      ->
+h_phobia      ->
+hr2final      ->
+hr            ->
+
+icar          ->
+intercep2     ->
+intercep3     ->
+intercep      ->
+irkalla       ->
+
+jarjar        ->
+jjep1         ->
+jns           ->
+jpcp_kana     ->
+jpcp          ->
+judgmentrt    ->
+judgment      ->
+
+kdikdizd      ->
+
+lastep1       ->
+longtrek      ->
+lostciv       ->
+lullaby       ->
+lunacy        ->
+
+machete       ->
+marrowrt      ->
+mayhem19      ->
+mm2           ->
+monument      ->
+moonbld       ->
+mutiny        ->
+
+neis          ->
+nihility      ->
+nost2         ->
+nostzero      ->
+nova2         ->
+nt            ->
+
+obit          ->
+odss          ->
+ozonia        ->
+
+pagodia       ->
+pd2           ->
+pgr           ->
+pinacolada2   ->
+pinacola      ->
+pl2           ->
+plerbtonia    ->
+plutonic      ->
+poly          ->
+prcp          ->
+psx           ->
+
+puss33        ->
+puss35        ->
+pusstonia     ->
+
+rage20        ->
+relive        ->
+requiem       ->
+rev           ->
+roc25         ->
+rtc3057       ->
+
+sacrment      ->
+scorch        ->
+scythe2       ->
+sepia         ->
+sf2011        ->
+sf2012        ->
+simulacrum    ->
+sinergy       ->
+skulltiverse  ->
+sky           ->
+sodfnl        ->
+so            ->
+storkgreen    ->
+strain        ->
+sub           ->
+sunder        ->
+
+tht           ->
+t-maya        ->
+tnt2          ->
+tntblood      ->
+tntgbe3       ->
+tntgrvnc      ->
+tntpurst      ->
+tntrecl       ->
+tntr          ->
+ttp           ->
+
+uac-ultra     ->
+udino         ->
+uprising      ->
+utnt          ->
+
+valiant       ->
+valve         ->
+vanguard      ->
+vngrd         ->
+
+zblood        ->
