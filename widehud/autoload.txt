@@ -147,65 +147,65 @@ obit          -> obtic.wad -- NOTE: DSDA hosted version, not actual /idgames rel
 odss          -> ODESSA14.WAD
 ozonia        -> ozonia.wad
 
-pagodia       ->
-pd2           ->
-pgr           ->
-pinacolada2   ->
-pinacola      ->
-pl2           ->
-plerbtonia    ->
-plutonic      ->
-poly          ->
-prcp          ->
-psx           ->
+pagodia       -> pagodia.wad
+pd2           -> PD2.wad
+pgr           -> PG_RESURGE.wad
+pinacolada2   -> pinacolada2.wad
+pinacola      -> pinacola.wad
+pl2           -> PL2.WAD
+plerbtonia    -> plerbtonia.wad
+plutonic      -> pw1final.wad
+poly          -> POLYGON.WAD
+prcp          -> PRCP.wad
+psx           -> [DELETED] PK3 only
 
-puss33        ->
-puss35        ->
-pusstonia     ->
+puss33        -> PUSS33_DIEROWDY.wad
+puss35        -> PUSS35R5.wad
+pusstonia     -> PUSSTONIA.wad
 
-rage20        ->
-relive        ->
-requiem       ->
-rev           ->
-roc25         ->
-rtc3057       ->
+rage20        -> RAGE20.WAD
+relive        -> RELIVE.WAD
+requiem       -> REQUIEM.WAD
+rev           -> REVERIE.wad
+roc25         -> RoC25.wad
+rtc3057       -> 3057hub1.wad
 
-sacrment      ->
-scorch        ->
-scythe2       ->
-sepia         ->
-sf2011        ->
-sf2012        ->
-simulacrum    ->
-sinergy       ->
-skulltiverse  ->
-sky           ->
-sodfnl        ->
-so            ->
-storkgreen    ->
-strain        ->
-sub           ->
-sunder        ->
+sacrament     -> Sacrment.wad
+scorch        -> SCORCHING.wad
+scythe2       -> scythe2.wad
+sepia         -> sepia.wad
+sf2011        -> SF2011.wad
+sf2012        -> SF2012_final.wad
+simulacrum    -> Simulacrum.wad
+sinergy       -> SINERGY.wad
+skulltiverse  -> SKULLTIVERSE.wad
+sky           -> _SMB417.WAD
+sodfnl        -> SODfinal.wad
+so            -> SANDYOVERHAUL.wad
+storkgreen    -> [DELETED] What the fuck even is RRSP3
+strain        -> STRAIN.WAD
+sub           -> SUB.WAD
+sunder        -> Sunder 2512.wad
 
-tht           ->
-t-maya        ->
-tnt2          ->
-tntblood      ->
-tntgbe3       ->
-tntgrvnc      ->
-tntpurst      ->
-tntrecl       ->
-tntr          ->
-ttp           ->
+tht           -> thtthren.wad
+t-maya        -> t-maya.wad
+tnt2          -> TNT2_1_2.wad
+tntblood      -> TNTBLOOD.WAD
+tntgbe3       -> tntgb.wad
+tntgrvnc      -> TNTGRVNC.WAD
+tntpurst      -> TNTPURST.WAD
+tntrecl       -> TNTRECL.WAD
+tntr          -> TNTR.wad
+ttp           -> TTP.WAD
 
-uac-ultra     ->
-udino         ->
-uprising      ->
-utnt          ->
+uac-ultra     -> uacultra.wad
+udino         -> UDINO.wad
+uprising      -> Uprising.wad
+utnt          -> [DELETED] PK3 only
 
-valiant       ->
-valve         ->
-vanguard      ->
-vngrd         ->
+valiant       -> Valiant.wad
+valve         -> valve.wad
+vanguard      -> Vanguard.wad
+vngrd         -> DVII-1i.wad
 
-zblood        ->
+zblood        -> zBLUDv41.WAD -- NOTE: ... ZDoom only? It's a WAD t least.
