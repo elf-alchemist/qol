@@ -99,7 +99,7 @@ hellbnd       -> Hellbnd.wad -- NOTE: DSDA hosted version, not actual /idgames r
 herexen       -> Herexen.wad
 herian        -> Herian.wad
 hntc          -> hntc.wad
-hoeshrwr      -> [UNCONFIRMED] Likely still same
+hoeshrwr      -> HoESHRWR.wad
 h_phobia      -> h_phobia.wad
 hr2final      -> hr2final.wad
 hr            -> HR.WAD
