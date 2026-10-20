@@ -9,7 +9,7 @@ action        -> action.wad
 admortem      -> AdMortem_v1.5.6.wad
 afternoon     -> afternoon.wad
 akeldama      -> akeldama.wad
-aliens        -> [IGNORED] Multiple possibly-canonical-or-non-canonical releases, requires building
+aliens        -> [DELETED] Multiple possibly-canonical-or-non-canonical releases, requires building
 allhell       -> Allhell.wad -- NOTE: Multiple files, can be run together just fine
 antareq       -> ANTA_REQ.wad
 aod           -> aoddoom1.wad
@@ -195,7 +195,7 @@ tntgbe3       -> tntgb.wad
 tntgrvnc      -> TNTGRVNC.WAD
 tntpurst      -> TNTPURST.WAD
 tntrecl       -> TNTRECL.WAD
-tntr          -> TNTR.wad
+tntr          -> [DELETED] replaced by Ultra-WiderPix
 ttp           -> TTP.WAD
 
 uac-ultra     -> uacultra.wad
