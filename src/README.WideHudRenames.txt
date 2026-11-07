@@ -23,8 +23,8 @@ batman        -> batman.wad
 beyondreality -> [DELETED] PK3 only
 bloodysteel   -> BLDSTLP.wad
 bstain        -> BStain.wad
-btsx1         -> btsx1_e1a.wad
-btsx2         -> btsx2_e2a.wad
+btsx1         -> btsx_e1a.wad
+btsx2         -> btsx_e2a.wad
 btsx3         -> BTSXE3PR.WAD
 
 cchest        -> CChest.wad
