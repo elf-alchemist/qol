@@ -75,7 +75,7 @@ function CopyDirectoryContents {
   fi
 }
 
-function MakePK3 {
+function MakeZIP {
   local SRC_TARGET="$1"
   local DEST_TARGET="$2"
   local SRC_DIR
@@ -96,7 +96,7 @@ function MakePK3 {
 
   IndentFurther
   Logger "Making ${DEST_AND_PARENT}"
-  zip "${DEST_TARGET}" -r . &> /dev/null
+  find . -type f | sort | zip "${DEST_TARGET}" -@ &> /dev/null
   IndentBack
 
   cd - &> /dev/null
@@ -114,18 +114,18 @@ Logger "Starting build setup..."
 mkdir -p "${BUILD}"
 mkdir -p "${DIST}"
 
-BUILD_WIDE="$(realpath "${BUILD}/widescreen")"
+BUILD_RESULT="$(realpath "${BUILD}/qol")"
 
-DIST_WIDE="$(realpath "${DIST}/widescreen.pk3")"
+DIST_RESULT="$(realpath "${DIST}/qol.pk3")"
 
 IndentFurther
 
-CopyDirectory "${SRC}" "${BUILD_WIDE}"
+CopyDirectory "${SRC}" "${BUILD_RESULT}"
 
 IndentBack
 
 Logger "Bundling for distribution..."
 
-MakePK3 "${BUILD_WIDE}" "${DIST_WIDE}"
+MakeZIP "${BUILD_RESULT}" "${DIST_RESULT}"
 
 Logger "Finished building mod!"

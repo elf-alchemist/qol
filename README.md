@@ -1,4 +1,4 @@
-# Ultimate Widescreen Mod
+# Ultimate Basic QOL Mod
 
 Because we _can_ have good things.
 
