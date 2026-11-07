@@ -28,13 +28,15 @@ jobs:
       - name: Build
         run: >-
           bash make.sh
+          cd dist
+          zip QOL_Latest.zip *
 
       - name: Extract Revision Number
         shell: bash
         run: >-
           echo "REV_COUNT=$(git rev-list --count HEAD)" >> $GITHUB_ENV
 
-      - name: Update Nightly Tag
+      - name: Update Latest Tag
         run: |
           git tag -d latest || true
           git push origin :refs/tags/latest || true
@@ -46,6 +48,6 @@ jobs:
         with:
           name: "QOL Pack Revision ${{ env.REV_COUNT }}"
           # bodyFile: CHANGELOG.md
-          tag: nightly
+          tag: latest
           allowUpdates: true
-          artifacts: dist/qol_r*.pk3
+          artifacts: dist/QOL_Latest.zip

@@ -76,6 +76,13 @@ function CopyDirectoryContents {
   fi
 }
 
+function MakeDateFile
+{
+  local SRC_TARGET="$1"
+  local VER_TARGET="${SRC_TARGET}/__VER__.txt"
+  date -u -Iseconds >> "${VER_TARGET}"
+}
+
 function MakeZIP {
   local SRC_TARGET="$1"
   local DEST_TARGET="$2"
@@ -122,6 +129,8 @@ DIST_RESULT="$(realpath "${DIST}/qol_r${REV_COUNT}.pk3")"
 IndentFurther
 
 CopyDirectory "${SRC}" "${BUILD_RESULT}"
+
+MakeDateFile "${BUILD_RESULT}"
 
 IndentBack
 
