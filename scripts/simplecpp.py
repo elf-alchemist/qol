@@ -28,8 +28,8 @@
 #
 # include the contents of a file
 
-import sys
 import re
+import sys
 
 debug = False
 defines = {}
@@ -57,17 +57,12 @@ def parse_stream(stream):
     result = read_block(stream, False)
 
     if result is not None:
-        raise Exception("Mismatched #if in '%s'" % stream.name)
+        raise Exception(f"Mismatched #if in '{stream.name}'")
 
 
 def parse_file(filename):
-    f = open(filename)
-
-    try:
+    with open(filename) as f:
         parse_stream(f)
-    finally:
-        f.close()
-
 
 # #include
 
@@ -98,8 +93,7 @@ def cmd_define(arg):
 
 
 def cmd_undef(arg):
-    if arg in defines:
-        del defines[arg]
+    defines.pop(arg, None)
 
 
 # #ifdef/#ifndef
@@ -110,7 +104,7 @@ def cmd_ifdef(arg, command, stream, ignore):
     # Get the define name
     name = arg.strip()
 
-    debug_msg("%s %s >\n" % (command, arg))
+    debug_msg(f"{command} {arg} >\n")
 
     # Should we ignore the contents of this block?
 
@@ -123,14 +117,14 @@ def cmd_ifdef(arg, command, stream, ignore):
 
     result = read_block(stream, ignore or sub_ignore)
 
-    debug_msg("%s %s < (%s)\n" % (command, arg, result))
+    debug_msg(f"{command} {arg} < ({result})\n")
 
     # There may be a second "else" block to parse:
 
     if result == "else":
-        debug_msg("%s %s else >\n" % (command, arg))
+        debug_msg(f"{command} {arg} else >\n")
         result = read_block(stream, ignore or (not sub_ignore))
-        debug_msg("%s %s else < (%s)\n" % (command, arg, result))
+        debug_msg(f"{command} {arg} else < ({result})\n")
 
     # Should end in an endif:
 
@@ -177,7 +171,7 @@ def read_block(stream, ignore):
             if command == "else" or command == "endif":
                 return command
             elif command not in commands:
-                raise Exception("Unknown command: '%s'" % command)
+                raise Exception(f"Unknown command: '{command}'")
 
             # Get the callback function.
 
