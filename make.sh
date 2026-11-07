@@ -27,6 +27,7 @@ function Logger {
 SRC="${PWD}/src"
 BUILD="${PWD}/build"
 DIST="${PWD}/dist"
+REV_COUNT="$(git rev-list --count HEAD)"
 
 function CleanBuild {
   rm -r "${BUILD}" || true
@@ -116,7 +117,7 @@ mkdir -p "${DIST}"
 
 BUILD_RESULT="$(realpath "${BUILD}/qol")"
 
-DIST_RESULT="$(realpath "${DIST}/qol.pk3")"
+DIST_RESULT="$(realpath "${DIST}/qol_r${REV_COUNT}.pk3")"
 
 IndentFurther
 
