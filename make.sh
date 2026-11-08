@@ -25,13 +25,35 @@ function Logger {
 }
 
 SRC="${PWD}/src"
+INFO="${PWD}/info"
+SCRIPTS="${PWD}/scripts"
 BUILD="${PWD}/build"
 DIST="${PWD}/dist"
+
 REV_COUNT="$(git rev-list --count HEAD)"
+SIMPLECPP="${SCRIPTS}/simplecpp.py"
 
 function CleanBuild {
   rm -r "${BUILD}" || true
   rm -r "${DIST}" || true
+}
+
+function CopyFile {
+  local SRC_TARGET="$1"
+  local DEST_TARGET="$2"
+  local SRC_DIR
+  local SRC_PARENT
+
+  SRC_DIR="$(basename -- "${SRC_TARGET}")"
+  SRC_PARENT="$(basename -- "$(dirname -- "$(realpath -- "${SRC_TARGET}")")")"
+  local SRC_AND_PARENT="${SRC_PARENT}/${SRC_DIR}"
+
+  if [[ -f "${SRC_TARGET}" ]]; then
+    Logger "Copying file ${SRC_AND_PARENT}"
+    cp "${SRC_TARGET}" "${DEST_TARGET}"
+  else
+    Logger "Source file ${SRC_AND_PARENT} does not exist or is not a file - can't copy."
+  fi
 }
 
 function CopyDirectory {
@@ -76,11 +98,20 @@ function CopyDirectoryContents {
   fi
 }
 
+function MakeDateTimeFile
+{
+  local DIR_TARGET="$1"
+  local FILE_TARGET="$2"
+  local TARGET="${DIR_TARGET}/${FILE_TARGET}"
+  echo -n "$(date -u -Iseconds)" >> "${TARGET}"
+}
+
 function MakeDateFile
 {
-  local SRC_TARGET="$1"
-  local VER_TARGET="${SRC_TARGET}/__VER__.txt"
-  date -u -Iseconds >> "${VER_TARGET}"
+  local DIR_TARGET="$1"
+  local FILE_TARGET="$2"
+  local TARGET="${DIR_TARGET}/${FILE_TARGET}"
+  echo -n "$(date -u -I)" >> "${TARGET}"
 }
 
 function MakeZIP {
@@ -122,20 +153,44 @@ Logger "Starting build setup..."
 mkdir -p "${BUILD}"
 mkdir -p "${DIST}"
 
-BUILD_RESULT="$(realpath "${BUILD}/qol")"
+FILENAME="qol_r${REV_COUNT}"
 
-DIST_RESULT="$(realpath "${DIST}/qol_r${REV_COUNT}.pk3")"
+BUILD_RESULT="$(realpath "${BUILD}/qol")"
+DIST_RESULT="$(realpath "${DIST}/${FILENAME}.pk3")"
+
+BUILD_INFO="$(realpath "${BUILD}/info")"
+DIST_INFO="$(realpath "${DIST}/${FILENAME}.txt")"
 
 IndentFurther
+#START
 
+# Base files
 CopyDirectory "${SRC}" "${BUILD_RESULT}"
+MakeDateTimeFile "${BUILD_RESULT}" "__VER__.txt"
 
-MakeDateFile "${BUILD_RESULT}"
+# Special handling of WADINFO.txt
+CopyDirectory "${INFO}" "${BUILD_INFO}"
 
+# Get filename per-build
+FILENAME_STR="Filename                : ${FILENAME}.pk3" 
+echo "${FILENAME_STR}" >> "${BUILD_INFO}/Filename.txt"
+
+# Get build date per-build
+echo -n "Release date            : " >> "${BUILD_INFO}/Release_Date.txt"
+MakeDateFile "${BUILD_INFO}" "Release_Date.txt"
+echo ""                              >> "${BUILD_INFO}/Release_Date.txt"
+
+# Compile it
+cd "${BUILD_INFO}"
+WADINFO="$(cat < "WADINFO.template.txt" | python3 "${SIMPLECPP}")"
+echo "${WADINFO}" >> "${BUILD_INFO}/${FILENAME}.txt"
+
+CopyFile "${BUILD_INFO}/${FILENAME}.txt" "${DIST}"
+
+#END
 IndentBack
 
+# Finally, compile it all
 Logger "Bundling for distribution..."
-
 MakeZIP "${BUILD_RESULT}" "${DIST_RESULT}"
-
 Logger "Finished building mod!"

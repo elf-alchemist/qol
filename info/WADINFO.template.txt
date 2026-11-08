@@ -1,0 +1,75 @@
+===========================================================================
+Archive Maintainer      : N/A
+Update to               : N/A
+Advanced engine needed  : PK3, filter, autoload support needed
+Primary purpose         : Other
+===========================================================================
+Title                   : Ultimate Basic QOL Mod
+#include "Filename.txt"
+#include "Release_Date.txt"
+Author                  : Elf Alchemist
+Email Address           : alchemist.software@proton.me
+Other Files By Author   : 
+Misc. Author Info       : Doomworld's resident occultist.
+
+Description             : Single, multi-use PK3 compilation of various small
+                          quality-of-life mods for Doom and associated games.
+
+                          Compiled by Elf Alchemist, based on various works by
+                          the wider Doom community, for the Doom community 
+
+Additional Credits to   : 
+===========================================================================
+* What is included *
+
+New levels              : None
+Sounds                  : No
+Music                   : No
+Graphics                : Yes
+Dehacked/BEX Patch      : DeHackEd Lump
+Demos                   : N/A
+Other                   : N/A
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Any idTech1 game
+Map #                   : N/A
+Single Player           : N/A
+Cooperative 2-4 Player  : N/A
+Deathmatch 2-4 Player   : N/A
+Other game styles       : N/A
+Difficulty Settings     : N/A
+
+
+* Construction *
+
+Base                    : Mostly from scratch (pulls from WidePix, WideHud, etc)
+Build Time              : Many uncounted hours, on and off since 2026-10-16
+Editor(s) used          : Slade, Zed
+Known Bugs              : None
+May Not Run With        : Engines that do not support PK3 filtering and autoloading
+Tested With             : Woof post-16.0.0 development build
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial 
+4.0 International License. To view a copy of this license, visit
+https://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format
+for any purpose, EXCEPT commercially. If you do so, you must give appropriate
+credit, provide a link to the license, and indicate if changes were made. You
+may do so in any reasonable manner, but not in any way that suggests the
+licensor endorses you or your use. You may NOT use the material for commercial
+purposes. If you remix, transform, or build upon the material, you may 
+distribute the modified material.
+
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
+Web sites: 
+FTP sites:
