@@ -15,10 +15,26 @@ Misc. Author Info       : Doomworld's resident occultist.
 Description             : Single, multi-use PK3 compilation of various small
                           quality-of-life mods for Doom and associated games.
 
-                          Compiled by Elf Alchemist, based on various works by
-                          the wider Doom community, for the Doom community 
+                          Compiled by Elf Alchemist, based on myriad works by
+                          the wider Doom community, for the Doom community.
 
-Additional Credits to   : 
+Additional Credits to   : Id Software, Inc.
+                          Raven Software
+                          Rogue Entertainment / Velocity, Inc.
+                          WizardWorks & Wraith Corporation
+                          RC Cola & Tim Willits
+                          General Mills & Digital Café
+                          Banjo Software
+                          Freedoom Project contributors
+                          NightFright2k19, et al
+                          Christopher Lovell
+                          Romero Games
+                          Stephen "ScubaSteve" Browning
+                          Nash Muhandes
+                          MachineGames
+                          NightDive Studios
+                          Meerschweinmann & PhobosVB, et al
+
 ===========================================================================
 * What is included *
 
