@@ -155,8 +155,8 @@ mkdir -p "${DIST}"
 
 FILENAME="qol_r${REV_COUNT}"
 
-BUILD_RESULT="$(realpath "${BUILD}/qol")"
-DIST_RESULT="$(realpath "${DIST}/${FILENAME}.pk3")"
+BUILD_QOL="$(realpath "${BUILD}/qol")"
+DIST_QOL="$(realpath "${DIST}/${FILENAME}.pk3")"
 
 BUILD_INFO="$(realpath "${BUILD}/info")"
 DIST_INFO="$(realpath "${DIST}/${FILENAME}.txt")"
@@ -165,8 +165,8 @@ IndentFurther
 #START
 
 # Base files
-CopyDirectory "${SRC}" "${BUILD_RESULT}"
-MakeDateTimeFile "${BUILD_RESULT}" "__VER__.txt"
+CopyDirectory "${SRC}" "${BUILD_QOL}"
+MakeDateTimeFile "${BUILD_QOL}" "__VER__.txt"
 
 # Special handling of WADINFO.txt
 CopyDirectory "${INFO}" "${BUILD_INFO}"
@@ -185,12 +185,13 @@ cd "${BUILD_INFO}"
 WADINFO="$(cat < "WADINFO.template.txt" | python3 "${SIMPLECPP}")"
 echo "${WADINFO}" >> "${BUILD_INFO}/${FILENAME}.txt"
 
-CopyFile "${BUILD_INFO}/${FILENAME}.txt" "${DIST}"
+CopyFile "${BUILD_INFO}/${FILENAME}.txt" "${DIST_INFO}"
+CopyFile "${BUILD_INFO}/${FILENAME}.txt" "${BUILD_QOL}/WADINFO.txt"
 
 #END
 IndentBack
 
 # Finally, compile it all
 Logger "Bundling for distribution..."
-MakeZIP "${BUILD_RESULT}" "${DIST_RESULT}"
+MakeZIP "${BUILD_QOL}" "${DIST_QOL}"
 Logger "Finished building mod!"
