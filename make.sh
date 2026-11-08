@@ -194,4 +194,5 @@ IndentBack
 # Finally, compile it all
 Logger "Bundling for distribution..."
 MakeZIP "${BUILD_QOL}" "${DIST_QOL}"
+MakeZIP "${DIST}" "QOL_Latest.zip"
 Logger "Finished building mod!"
