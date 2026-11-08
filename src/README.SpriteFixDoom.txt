@@ -1,4 +1,4 @@
-All the following listed files are accredited to id Software, Revenant100, et al, and their respective original authors.
+All the following listed files are accredited to id Software, Revenant100, et al, and their respective authors.
 Please read the files in `credits/` for more details.
 
 filter/doom.id/graphics/M_DETAIL.lmp

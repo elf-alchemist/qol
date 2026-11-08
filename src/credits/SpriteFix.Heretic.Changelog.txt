@@ -1,0 +1,75 @@
+Heretic Minor Sprite Fixing Project Changelog
+7/2/13 - Preliminary 1.0 release
+
+Gargoyle
+- Adjusted sprite offsets during walking frames for smoother rotation transitions.
+- Fixed green pixel in 1 walking frame.
+- Fixed blue pixel in 1 pain frame.
+- Fixed a bunch of purple pixels in 1 gibbing frame.
+
+Golem
+- Filled in erroneous transparent pixel in 1 pain frame.
+- Fixed disappearing side of foot during death animation.
+- Renamed walking frames so that they properly mirror in rotations.
+
+Undead Warrior
+- Adjusted sprite offsets during walking, firing, and pain frames.
+- Filled in erroneous transparent pixels in 4 frames.
+
+Disciple of D'Sparil
+- Adjusted sprite offsets during death frames.
+- Filled in erroneous transparent pixel in 1 attacking frame.
+
+Iron Lich
+- Adjusted sprite offsets during attacking and death frames.
+- Filled in erroneous transparent pixel in 1 attacking frame.
+- Removed some excess pixels in 1 attacking frame.
+
+Sabreclaw
+- Adjusted sprite offsets during walking, attacking, pain, and death frames.
+- Fixed unconnected tail/claw/toe 28 in frames.
+
+Weredragon
+- Adjusted sprite offsets during pain, attacking, and gibbing frames.
+- Filled in erroneous transparent pixel in 1 attacking frame.
+- Removed black line from 1 attacking frame.
+- Removed floating pixel in final death frames.
+
+Ophidian
+- Adjusted sprite offsets during attacking, pain, and death frames.
+- Fixed unconnected rattler on tail in 2 frames.
+
+Maulotaur
+- Adjusted sprite offsets during pain and death frames.
+- Filled in erroneous transparent pixel in 1 death frame.
+
+D'Sparil riding Serpent
+- Adjusted sprite offsets during walking, attacking, and death frames.
+
+D'Sparil
+- Shifted sprites offsets during walking, firing, and pain frames up 1 pixel so they're not so deeply sunk into the ground.
+- Adjusted sprite offsets during walking and attacking frames. Should be a more natural walking cycle.
+
+Player
+- Shifted sprite offsets during walking, firing, pain, and burn death frames up so they're not so deeply sunk into the ground.
+- Filled in erroneous transparent pixels in 7 frames.
+- Fixed order of rear angle walking frames.
+- Renamed walking frames so the leg positions properly mirror in walking rotations. Staff still doesn't correctly mirror.
+
+Other Things
+- Status Bar: Made widescreen-friendly.
+- Chicken: Adjusted sprite offsets during death frame.
+- Pod: Adjusted sprite offsets during death frame.
+- Green Axe Projectile: Added correct rear angle rotation frames.
+- Green Key: Fixed duplicate frame in spinning animation.
+- All Keys: Adjusted sprite offsets they're not so deeply sunk into the ground.
+- Various Weapon and Ammo Pickups: Adjusted sprite offsets they're not so deeply sunk into the ground.
+- Hanging Skulls (all types), Hanging Corpse, Chandelier: Extended the ropes/chains of these props so that they actually connect to the ceiling.
+- Moss (both types), Large Stalactite, Small Stalactite: Adjusted sprite offsets of these props so that they actually connect to the ceiling.
+- Made minute sprite offset adjustments to some decorations, projectile explosions, and effects.
+
+First Person Weapon Sprites
+- Staff: Made firing frame widescreen-friendly.
+- Gauntlets: Filled in erroneous transparent pixels in 2 frames.
+- Gauntlets: Fixed inconsistent brightness.
+- Firemace: Fixed odd black squares in 2 frames.
