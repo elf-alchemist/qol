@@ -13,6 +13,7 @@ Copyright (C) 1996      RC Cola & Tim Willits
 Copyright (C) 1996-2008 General Mills & Digital Café
 Copyright (C) 1997-2010 Banjo Software
 Copyright (C) 2001-2026 Freedoom Project contributors
+Copyright (C) 2012-2016 Marphy Black (Revenant100), et al
 Copyright (C) 2013-2026 NightFright2k19, et al
 Copyright (C) 2018-2023 Christopher Lovell
 Copyright (C) 2019-2023 Romero Games

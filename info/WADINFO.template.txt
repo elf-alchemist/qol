@@ -26,6 +26,7 @@ Additional Credits to   : Id Software, Inc.
                           General Mills & Digital Café
                           Banjo Software
                           Freedoom Project contributors
+                          Marphy Black (Revenant100), et al
                           NightFright2k19, et al
                           Christopher Lovell
                           Romero Games
