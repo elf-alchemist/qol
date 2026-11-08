@@ -146,7 +146,7 @@ autoload/MM2.WAD/graphics/STBAR.lmp
 autoload/monument.wad/graphics/STBAR.lmp
 autoload/moonbld.wad/graphics/STBAR.lmp
 autoload/MUTINY.wad/graphics/STBAR.lmp
-autoload/NIES.wad/graphics/STBAR.lmp
+autoload/NEIS.wad/graphics/STBAR.lmp
 autoload/nihility.wad/graphics/STBAR.lmp
 autoload/nost2.wad/graphics/STBAR.lmp
 autoload/nostzero.wad/graphics/STBAR.lmp
