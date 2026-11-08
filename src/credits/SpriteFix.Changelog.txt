@@ -1,0 +1,222 @@
+Doom 2 Minor Sprite Fixing Project Changelog
+11/28/12 - Preliminary release
+12/07/12 - 1.1 Release
+01/01/13 - 1.2 Release
+06/26/13 - 1.3 Release
+03/20/14 - 1.4 Release
+12/13/14 - 1.5 Release
+08/30/15 - 1.6 Release
+07/28/16 - 1.7 Release
+11/15/16 - 1.8 Release
+11/29/17 - 1.9 Release
+01/18/22 - 2.0 Beta 1 Release
+07/17/22 - 2.0 Beta 2 Release
+11/28/22 - 2.0 Release
+
+General
+- [1.8] Added sprite padding to several monster and projectile rotation sprites to fix incorrect mirrored recentering in vanilla executables and certain source ports.
+- [1.9] Removed IWAD header to fix some source port compatibility issues.
+- [2.0 Beta 1] Restored inadvertently remapped duplicate palette colors in affected sprites. Fixes visual inconsistencies when using very particular custom color palettes.
+
+Zombieman
+- Adjusted sprite offsets during gibbing frames.
+- Filled in erroneous transparent pixels in 3 frames.
+- [1.1] Renamed walking frames so the leg positions properly mirror in walking rotations. Gun still doesn't correctly mirror.
+- [1.4] Adjusted sprite offsets during shooting and pain frames.
+- [1.5] Restored missing rotation angle sprites.
+- [1.5] Filled in erroneous transparent pixel in 1 death frame.
+- [1.6] Further refined sprite offsets during walking frame based on Romero's released sprite sheets.
+- [1.9] Fixed leftover Shotgun Guy parts in gibbing frames.
+- [2.0 Beta 1] Replaced few instances of color palette index 255 to more standard color for consistency.
+
+Shotgun Guy
+- Adjusted sprite offsets during shooting and gibbing frames.
+- [1.1] Renamed walking frames so the leg positions properly mirror in walking rotations. Gun still doesn't correctly mirror.
+- [1.4] Adjusted sprite offsets during shooting and pain frames.
+- [1.5] Restored missing rotation angle sprites.
+- [1.6] Further refined sprite offsets during walking frames based on Romero's released sprite sheets.
+
+Heavy Weapon Dude
+- Adjusted sprite offsets during shooting, pain, death, and gibbing frames.
+- [1.6] Adjusted sprite offsets during walking frames based on Romero's released sprite sheets.
+
+Imp
+- Adjusted sprite offsets during walking, shooting, pain, and gibbing frames.
+- Restored missing rotation angle sprites for the Imp's walking animation taken from alpha 0.2. Additionally, fixed the walking frames in one of these restored angles as the sequence was incorrect in the alpha.
+- Restored missing rotation angle sprites for the Imp's shooting animation taken from alpha 0.5.
+- [1.2] Adjusted sprite offsets during final death frame.
+- [1.3] Further refined sprite offsets during walking and shooting frames.
+- [1.3] Fixed inexplicable grey pixels in 15 frames.
+- [1.9] Fixed leftover Zombieman parts in gibbing frames.
+- [1.9] Adjusted sprite offsets during gibbing frames.
+- [2.0 Beta 1] Added missing knee spikes in 1 death frame.
+- [2.0] Further refined sprite offsets during gibbing frames to match feet position in pain and death frames.
+
+Demon
+- Adjusted sprite offsets during attacking, pain, and death frames.
+- Restored missing rotation angle sprites for the Demon's walking animation by mirroring existing graphics. This is exactly how id would have done it.
+- [1.1] Removed the additional mirrored walking frames I had included and instead renamed the existing walking frames so that they properly mirror in rotations. The end result is completely identical and saves a little space.
+- [1.1] Adjusted sprite offsets during walking frames.
+- [1.1] Further refined sprite offsets during attacking and pain frames.
+- [1.2] Further refined sprite offsets during walking frames.
+- [1.9] Removed leftover pixel in pain frame.
+- [1.9] Adjusted brightness of toes in attacking and pain frames to match walking and death frames.
+- [1.9] Added orange leg ridges in attacking and pain frames to match walking and death frames.
+- [2.0 Beta 1] Fixed grey pixels in teeth in 13 frames. Teeth now have correct consistency with the alpha-to-retail color palette translation.
+- [2.0 Beta 2] Further refined sprite offsets during front and rear-facing walking frames. Now perfectly centered and consistent with general sprite mirroring logic.
+
+Lost Soul
+- Adjusted sprite offsets during walking, attacking, and death frames.
+- [1.1] Adjusted sprite offsets during pain frames.
+- [1.1] Further refined sprite offsets during walking, attacking, and death frames.
+- [1.3] Restored the intended front-facing walking sprites from pre-1.666 patch versions.
+
+Cacodemon
+- Adjusted sprite offsets during walking, shooting, and death frames.
+- Filled in erroneous transparent pixels in 3 frames.
+- [1.1] Further refined sprite offsets during walking, attacking, and pain frames.
+- [2.0 Beta 1] Removed 3 erroneous brown pixels in death frame.
+
+Hell Knight
+- Adjusted sprite offsets during attacking frames.
+- Fixed the Knight's hooves suddenly turning grey like the Baron's during his attacking animation. They're now properly recolored to brown.
+- Fixed small bright patch inexplicably appearing during the final death frame.
+- [1.1] Further refined sprite offsets during attacking and pain frames.
+- [1.1] Fixed the Hell Knight's hands being darker than intended in 38 frames. This was a side effect of his pants being darkened and the affected portion inadvertently extending too far.
+- [1.1] Fixed some errant pink pixels left over from the Baron.
+- [1.1] Fixed gore chunk in death animation being colored blood red instead of flesh-toned.
+- [1.2] Redid the coloring of the Hell Knight's hooves during his attacking animation.
+- [1.3] Fixed more grey pixels in the Knight's hooves in 5 frames.
+- [1.8] Further refined sprite offsets during attacking frames.
+- [2.0] Fixed pixel inconsistencies between Hell Knight's and Baron of Hell's sprites in 5 frames.
+- [2.0] Further refined sprite offsets during angled and side walking frames. Now consistent with Baron of Hell's mirrored offsets.
+
+Baron of Hell
+- Adjusted sprite offsets during attacking frames.
+- Restored missing rotation angle sprites for the Baron's walking animation taken from alpha 0.2. Additionally, darkened the horns and hooves of these alpha sprites in order to match the finished sprites.
+- Fixed the Baron's horns and hooves suddenly becoming brighter during the second frame of his attacking animation. This was a leftover from the alpha.
+- [1.1] Further refined sprite offsets during attacking and pain frames.
+- [1.1] Fixed pants becoming darker during death frames.
+- [1.1] Fixed brown pixels from the Baron's pants appearing on his torso in 8 frames.
+- [1.1] Fixed gore chunk in death animation being colored blood red instead of flesh-toned.
+- [1.2] Replaced many of my manual sprite edits with sprites found in the 1.0 Shareware version. The previously mentioned brighter hooves and darker pants are now fixed using completely official artwork that was inadvertently broken in some update.
+- [1.8] Further refined sprite offsets during attacking frames.
+- [2.0 Beta 2] Further refined sprite offsets during front and rear-facing walking frames. Now consistent with Hell Knight's offsets and general sprite mirroring logic.
+- [2.0] Fixed pixel inconsistencies between Baron of Hell's and Hell Knight's sprites in 1 frame.
+
+Arachnotron
+- Adjusted sprite offsets during walking and shooting frames.
+- Filled in erroneous transparent pixels in 15 frames.
+- [1.1] Adjusted sprite offsets during shooting and death frames.
+- [1.1] Further refined sprite offsets during walking and pain frames.
+- [1.1] Renamed walking frames so that they properly mirror in rotations.
+
+Pain Elemental
+- Adjusted sprite offsets during walking, attacking, pain, and death frames.
+- [1.1] Further refined sprite offsets during walking, attacking, pain, and death frames.
+- [1.3] Fixed minor animation inconsistencies in 2 walking frames.
+
+Revenant
+- Adjusted sprite offsets during walking, punching, shooting, pain, and death frames.
+- Removed leftover line of garbage pixels in 1 frame.
+- [1.1] Further refined sprite offsets during walking frames.
+- [1.2] Further refined sprite offsets during shooting frames.
+- [1.4] Removed leftover garbage pixel in 1 frame.
+- [2.0 Beta 1] Restored missile launcher's missing column of pixels in 1 punching frame.
+- [2.0] Added missing markings on arms in 2 frames.
+
+Mancubus
+- Adjusted sprite offsets during shooting, pain, and death frames.
+- Removed leftover garbage pixels in 2 frames.
+- [1.1] Renamed walking frames so that they properly mirror in rotations.
+- [1.1] Adjusted sprite offsets during walking frames.
+- [1.1] Further refined sprite offsets during attacking, pain, and death frames.
+- [1.2] Further refined sprite offsets during pain and death frames.
+- [1.4] Further refined sprite offsets during walking frames.
+- [2.0 Beta 1] Further refined sprite offsets during walking frames.
+
+Arch-Vile
+- Adjusted sprite offsets during attacking, pain, death, and resurrection frames.
+- [1.1] Adjusted sprite offsets during walking frames.
+- [1.1] Further refined sprite offsets during pain and resurrection frames.
+- [1.8] Further refined sprite offsets during walking frame.
+
+Spider Mastermind
+- Adjusted sprite offsets during shooting and death frames.
+- Removed visible Cyberdemon hooves in the explosions during the death animation.
+- [1.1] Adjusted sprite offsets during walking and pain frames.
+- [1.1] Further refined sprite offsets during shooting frames.
+- [1.1] Renamed walking frames so that they properly mirror in rotations.
+- [1.9] Removed purple pixels in 3 frames.
+
+Cyberdemon
+- Adjusted sprite offsets during shooting, pain, and death frames.
+- Filled in erroneous transparent pixels in 6 frames.
+- [1.3] Fixed rightmost column of pixels being cropped in death frames by restoring 1.1 Cyberdemon sprites.
+- [1.3] Filled in erroneous transparent pixels in 1 death frame.
+
+Wolfenstein SS
+- Adjusted sprite offsets during walking, shooting, pain, death, and gibbing frames. These offsets (except for the gibbing) are based on the actual Wolfenstein 3D sprite offsets, so they're as authentic as can be.
+- Removed purple pixels in 2 frames left over from conversion process.
+- Added missing rotation angle sprites for the SS's shooting animation.
+- [1.1] Replaced firing rotation sprites with better versions.
+- [1.4] Removed gore chunk in 1 gibbing frame that was only meant for the Zombieman.
+- [1.5] Added missing rotation angle sprites for the SS's pain animation.
+- [1.5] Fixed leftover green hair pixels in 1 gibbing frame.
+- [1.5] Renamed walking frames to fix improper leg rotations in 5-8 angle walking rotations.
+
+Player
+- Filled in erroneous transparent pixel in 1 frame.
+- Fixed gun suddenly becoming brighter during final gibbing frames.
+- [1.5] Restored missing rotation angle sprites.
+- [2.0 Beta 2] Fixed miscolored pixel between legs in 1 walking frame.
+- [2.0 Beta 2] Fixed disappearing pixel in 2 death frames.
+
+Other Things
+- Barrel: Removed visible Cyberdemon hooves in the final explosion frame.
+- Megasphere: Removed some odd green pixels in 2 frames.
+- Hanging Corpses (all types): Extended the ropes/chains of these props so that they actually connect to the ceiling.
+- [1.1] Small Blue Torch: Fixed wood shifting in 1 frame (SMBTA0).
+- [1.1] Red and Yellow Keycard: Shifted both 1 pixel so that they are perfectly centered. They now much the offsets of the Blue Keycard.
+- [1.1] Berserk Pack: Adjusted sprite offset to match Medikit. Their sprite offsets matched in the press release beta, so it's likely they just forgot to alter the Berserk Pack as well when they changed the Medikit.
+- [1.2] Pool of blood decorations: Shifted sprite offsets upwards so these objects no longer appear to be sunken underground.
+- [1.2] Baron/Knight Fireball: Adjusted sprite offsets of projectile explosion so that it does not appear below the point of impact.
+- [1.2] Revenant Rocket: Adjusted sprite offsets of projectile explosion so that it does not appear above the point of impact.
+- [1.2] Mancubus Fireball: Adjusted sprite offsets of projectile itself to smooth out transition between rotations.
+- [1.2] Boss Spawn Cube: Adjusted sprite offsets to make the rotating animation smoother.
+- [1.2] Made minute sprite offset adjustments to the following: Blood puff, Cacodemon fireball explosion, teleport fog, Arachnotron plasma ball and explosion, Plasma Rifle projectile explosion, and BFG ray explosion.
+- [1.4] Fix by NightFright: Cleaned up errors in help screens. (Doom 1 and Doom 2)
+- [1.4] Fix by NightFright: Cleaned up green pixels in intermission screen graphics. (Doom 1)
+- [1.4] Fix by NightFright: Fixed iris color of the status bar face during Ouch expression.
+- [1.6] Tall Blue and Green Torches: Fixed erroneous red pixel appearing in 1 frame.
+- [1.7] Radiation Shielding Suit: Removed green pixel leftover from Player sprite.
+- [1.7] Status Bar Face: Removed erroneous brown pixels in God frame.
+- [1.7] Burning Barrel: Removed erroneous black pixel in 1 frame.
+- [1.8] Fixed incomplete stroke effect around 2, 5, and 8 HUD numbers.
+- [1.8] Added sprite padding to Twitching Impaled Human and Twitching Hanging Corpse things to fix jittering in all engines.
+- [1.8] Added sprite padding to Small Torches, Evil Eye, and Flaming Barrel things to fix jittering in ZDoom, GZDoom, Zandronum, and derivative source ports.
+- [1.8] Restored uncropped Blood Pool sprite from original sprite sheet.
+- [1.9] Fixed cropped comma in Hey, not too rough! difficulty text. By LemonWolf3322.
+- [2.0 Beta 1] Fixed brown pixels and pink pixel in Nightmare! difficulty text. By JCST.
+- [2.0 Beta 1] Status Bar Face: Adjusted sprite offsets during left and right looking pain frames.
+- [2.0 Beta 1] Status Bar Face: Added missing bloody nose in 3 frames.
+- [2.0 Beta 2] Fixed font inconsistencies in several menu graphics.
+- [2.0] Shifted both short red pillars by 1 pixel to match other tall red and all green pillars.
+
+First Person Weapon Sprites
+- Restored uncropped Fists, Pistol, and Shotgun sprites taken from the press release beta. The cropped portions still aren't visible, but why not include them anyway?
+- [1.1] Centered offsets for the Shotgun, Super Shotgun, Chaingun, Rocket Launcher, Plasma Rifle, and BFG.
+- [1.1] Super Shotgun: Removed erroneous brown pixel from idle frame. This was a leftover of Doom Guy's glove.
+- [1.1] Super Shotgun: Extended Doom Guy's arm in 1 reloading frame so that it reaches the bottom of the screen. This change is only visible in widescreen resolutions.
+- [1.5] Fix by Da Werecat: Fixed mismatching Rocket Launcher muzzle flash firing frame
+- [1.7] Shotgun: Fixed tall sprites wrapping error. Thanks to Linguica.
+- [1.8] Super Shotgun: Updated widescreen sprite. By Blastfrog.
+- [1.8] Super Shotgun: Readjusted centered offsets to be more accurate.
+- [1.9] Super Shotgun: Updated widescreen sprite. By Blastfrog.
+- [1.9] Chaingun: Removed extraneous pixel in muzzle flash firing frame.
+- [1.9] Rocket Launcher: Updated firing frame sprite. By Blastfrog.
+- [1.9] Added sprite padding to Shotgun, Super Shotgun, Chaingun, Rocket Launcher, and BFG muzzle flash firing frames to fix horizontal jittering in high resolution source ports.
+- [1.9] Chainsaw: Removed purple pixels in 2 frames.
+
+Patches:
+- [1.3] Filled in 2 erroneous transparent pixels in RSKY2 texture.
