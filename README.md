@@ -2,6 +2,15 @@
 
 Because we _can_ have good things.
 
+You may ask "What mods are included?", and the list is:
+
+* Nash's WidePix
+* ScubaSteve's own collection of widescreen assets
+* NightFirght2k19's WideHud
+* Meerschweinmann's UltraWiderPix
+* Revenant100's Doom Minor Sprite Fixing Project
+* Coicident's Doom Minor Sound Fixing Project
+
 ## Credits
 
 ```txt
