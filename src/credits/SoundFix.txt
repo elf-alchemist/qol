@@ -1,0 +1,10 @@
+Title                   : Doom 2 Minor Sound Fixing Project v01
+Files                   : SNDFIX01.WAD, SNDFIX01.TXT
+Release date            : 16/05/25
+Author                  : Coincident
+Description             : A set of minor fixes to Doom 2's sounds that provide
+                          slightly cleaner audio, while keeping changes
+                          unnoticeable to preserve the original feel and
+                          nostalgia of Doom. These files are compatible with
+                          Doom 1, Doom 2, and Final Doom, as long as you load
+                          SNDFIX.WAD before loading any custom maps.

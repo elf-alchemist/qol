@@ -22,6 +22,7 @@ Copyright (C) 2020-2021 Nash Muhandes
 Copyright (C) 2024      MachineGames
 Copyright (C) 2024-2025 NightDive Studios
 Copyright (C) 2024-2026 Meerschweinmann & PhobosVB, et al
+Copyright (C) 2025      Coincident
 ```
 
 And to the entire Doom community at large, for all of the amazing work dedicated over 30+ years of Doom modding.
